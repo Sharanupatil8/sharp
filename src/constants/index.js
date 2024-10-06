@@ -24,6 +24,9 @@ import {
   aksharestates,
   omnifood,
   natours,
+  thewildoasis,
+  thaispa,
+  wildOasisWebsite
 } from "../assets";
 
 export const navLinks = [
@@ -91,6 +94,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+    {
+    name: "Next.js",
+    icon: docker,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -117,10 +124,7 @@ const technologies = [
     icon: git,
   },
 
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -181,7 +185,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Sharp digital agency proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Sharan agency proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Sharp digital agency does.",
+      "I've never met a web developer who truly cares about their clients' success like Sharan agency does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +201,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Sharp digital agency optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Sharan agency optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -248,6 +252,70 @@ const projects = [
     ],
     image: gcubeinfra,
     source_code_link: "https://gcubeinfra.com/",
+  },
+   {
+    name: "Hotel Management app",
+    description:
+      "This application is designed to manage hotel operations, including sales statistics, cabin management, user management, booking management and authentication",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thewildoasis,
+    source_code_link: "https://the-wild-oasis-i7mu.vercel.app/",
+  },
+   {
+    name: "Hotel Booking App",
+    description:
+      "This application is designed to manage to reserve your cabins and authentication  ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wildOasisWebsite,
+    source_code_link: "https://the-wild-oasias-website-sharan.vercel.app/",
+  },
+    {
+    name: "Nayan Internation Thai Spa",
+    description:
+      "Luxury International Thai spa bangalore",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thaispa,
+    source_code_link:
+      "https://nayaninternationalthaispa.com/",
   },
   {
     name: "Akshar estates",
